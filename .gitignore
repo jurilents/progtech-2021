@@ -1,0 +1,12 @@
+# IDE cache
+.vs/
+.vscode/
+.idea/
+
+# Binaries and meta content
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
