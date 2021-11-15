@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementarySchool.Web", "ElementarySchool.Web\ElementarySchool.Web.csproj", "{0DE4663C-A327-4740-B108-33B93CBFAA61}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementarySchool.Web", "src\ElementarySchool.Web\ElementarySchool.Web.csproj", "{0DE4663C-A327-4740-B108-33B93CBFAA61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementarySchool.Tests", "ElementarySchool.Tests\ElementarySchool.Tests.csproj", "{084F4FAE-DCFF-4C4B-BCE3-2A8CD4F43725}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementarySchool.Tests", "tests\ElementarySchool.Tests\ElementarySchool.Tests.csproj", "{084F4FAE-DCFF-4C4B-BCE3-2A8CD4F43725}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
