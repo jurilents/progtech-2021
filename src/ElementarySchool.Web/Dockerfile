@@ -1,19 +1,19 @@
-﻿FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS base
+﻿# First stage
+FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS base
 WORKDIR /app
-EXPOSE 80
-EXPOSE 443
 
+# Copy csproj and restore as distinct layers
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
-COPY ["ElementarySchool.Web/ElementarySchool.Web.csproj", "ElementarySchool.Web/"]
-RUN dotnet restore "ElementarySchool.Web/ElementarySchool.Web.csproj"
 COPY . .
-WORKDIR "/src/ElementarySchool.Web"
+RUN dotnet restore "./ElementarySchool.Web.csproj"
 RUN dotnet build "ElementarySchool.Web.csproj" -c Release -o /app/build
 
+# Copy everything else and build website
 FROM build AS publish
 RUN dotnet publish "ElementarySchool.Web.csproj" -c Release -o /app/publish
 
+# Final stage
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
