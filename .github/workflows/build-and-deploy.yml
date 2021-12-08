@@ -1,9 +1,6 @@
 ﻿name: Build and deploy a container image to Azure Web Apps
 
-on:
-  push:
-    branches:
-      - master
+on: [ push ]
 
 env:
   AZURE_WEBAPP_NAME: webapp-practice-1-123123
@@ -11,9 +8,9 @@ env:
   NETCORE_VERSION: '5.0.x'
 
 jobs:
-  build-and-deploy:
+  build:
+    name: Build and Deploy
     runs-on: windows-latest
-    
     steps:
       - uses: actions/checkout@v2
 
@@ -21,23 +18,23 @@ jobs:
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version ${{ env.NETCORE_VERSION }}
-        
+
       - name: Restore
         run: dotnet restore
-        
+
       - name: Build
         run: dotnet build --no-restore
-        
-      - name: Publish
-        run: dotnet publish --no-build -c Release -o ./published
-        
+
+      - name: Publish app for deploy
+        run: dotnet publish --no-build -c Release -o ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+
       - name: Deploy to Azure WebApp
-          uses: azure/webapps-deploy@v2
-          with:
-            app-name: ${{ env.AZURE_WEBAPP_NAME }}
-            publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-            package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
-        
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: ${{ env.AZURE_WEBAPP_NAME }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+
 #      - name: Publish Artifacts
 #        uses: actions/upload-artifact@v1.0.0
 #        with:
