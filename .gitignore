@@ -4,8 +4,11 @@
 .idea/
 
 # Binaries and meta content
-bin/
-obj/
+#bin/
+#obj/
+
+#!bin/Release/
+#!obj/Release/
 
 # User-specific files
 *.user

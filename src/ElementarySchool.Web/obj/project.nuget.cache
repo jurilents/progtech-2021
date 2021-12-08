@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yq5wHwtqfzZ6DkfbyKMNruzou8E+ecmvsX4xrw4kh9otR8JKEAYJDa6KXzyEK5fHc+iJ4RW6D48y7Fei6BlANA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Developer\\Desktop\\Projects\\_ _ _ _ _ _\\TProg\\src\\ElementarySchool.Web\\ElementarySchool.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Developer\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Developer\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Developer\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Developer\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\Developer\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

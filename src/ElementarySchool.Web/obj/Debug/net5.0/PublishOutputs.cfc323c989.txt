@@ -1,0 +1,10 @@
+C:\Users\Developer\AppData\Local\Temp\rider-publish15885039847455057397\ElementarySchool.Web.exe
+C:\Users\Developer\AppData\Local\Temp\rider-publish15885039847455057397\appsettings.json
+C:\Users\Developer\AppData\Local\Temp\rider-publish15885039847455057397\ElementarySchool.Web.dll
+C:\Users\Developer\AppData\Local\Temp\rider-publish15885039847455057397\ElementarySchool.Web.deps.json
+C:\Users\Developer\AppData\Local\Temp\rider-publish15885039847455057397\ElementarySchool.Web.runtimeconfig.json
+C:\Users\Developer\AppData\Local\Temp\rider-publish15885039847455057397\ElementarySchool.Web.pdb
+C:\Users\Developer\AppData\Local\Temp\rider-publish15885039847455057397\Microsoft.OpenApi.dll
+C:\Users\Developer\AppData\Local\Temp\rider-publish15885039847455057397\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Developer\AppData\Local\Temp\rider-publish15885039847455057397\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Developer\AppData\Local\Temp\rider-publish15885039847455057397\Swashbuckle.AspNetCore.SwaggerUI.dll
