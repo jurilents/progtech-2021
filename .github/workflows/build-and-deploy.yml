@@ -17,7 +17,7 @@ jobs:
       - name: Setup .NET Core SDK ${{ env.NETCORE_VERSION }}
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version ${{ env.NETCORE_VERSION }}
+          dotnet-version: ${{ env.NETCORE_VERSION }}
 
       - name: Restore
         run: dotnet restore
