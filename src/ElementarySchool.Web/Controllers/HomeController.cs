@@ -17,7 +17,7 @@ namespace ElementarySchool.Controllers
 		[HttpGet]
 		public ActionResult Get()
 		{
-			return this.Ok(new { Success = true });
+			return this.Ok(new { Success = true, Version = "MyApp:2.0" });
 		}
 	}
 }
