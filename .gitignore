@@ -7,9 +7,6 @@
 bin/
 obj/
 
-#!bin/Release/
-#!obj/Release/
-
 # User-specific files
 *.user
 *.userosscache

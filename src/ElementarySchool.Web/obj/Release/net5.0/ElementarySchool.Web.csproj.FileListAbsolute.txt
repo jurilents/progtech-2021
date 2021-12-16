@@ -10,7 +10,6 @@ C:\Users\Developer\Desktop\Projects\_ _ _ _ _ _\TProg\src\ElementarySchool.Web\b
 C:\Users\Developer\Desktop\Projects\_ _ _ _ _ _\TProg\src\ElementarySchool.Web\bin\Release\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Developer\Desktop\Projects\_ _ _ _ _ _\TProg\src\ElementarySchool.Web\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Developer\Desktop\Projects\_ _ _ _ _ _\TProg\src\ElementarySchool.Web\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Developer\Desktop\Projects\_ _ _ _ _ _\TProg\src\ElementarySchool.Web\obj\Release\net5.0\ElementarySchool.Web.csproj.AssemblyReference.cache
 C:\Users\Developer\Desktop\Projects\_ _ _ _ _ _\TProg\src\ElementarySchool.Web\obj\Release\net5.0\ElementarySchool.Web.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Developer\Desktop\Projects\_ _ _ _ _ _\TProg\src\ElementarySchool.Web\obj\Release\net5.0\ElementarySchool.Web.AssemblyInfoInputs.cache
 C:\Users\Developer\Desktop\Projects\_ _ _ _ _ _\TProg\src\ElementarySchool.Web\obj\Release\net5.0\ElementarySchool.Web.AssemblyInfo.cs
@@ -25,3 +24,4 @@ C:\Users\Developer\Desktop\Projects\_ _ _ _ _ _\TProg\src\ElementarySchool.Web\o
 C:\Users\Developer\Desktop\Projects\_ _ _ _ _ _\TProg\src\ElementarySchool.Web\obj\Release\net5.0\ref\ElementarySchool.Web.dll
 C:\Users\Developer\Desktop\Projects\_ _ _ _ _ _\TProg\src\ElementarySchool.Web\obj\Release\net5.0\ElementarySchool.Web.pdb
 C:\Users\Developer\Desktop\Projects\_ _ _ _ _ _\TProg\src\ElementarySchool.Web\obj\Release\net5.0\ElementarySchool.Web.genruntimeconfig.cache
+C:\Users\Developer\Desktop\Projects\_ _ _ _ _ _\TProg\src\ElementarySchool.Web\obj\Release\net5.0\ElementarySchool.Web.csproj.AssemblyReference.cache
