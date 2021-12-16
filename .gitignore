@@ -4,8 +4,8 @@
 .idea/
 
 # Binaries and meta content
-#bin/
-#obj/
+bin/
+obj/
 
 #!bin/Release/
 #!obj/Release/
