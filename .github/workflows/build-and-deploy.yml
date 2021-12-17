@@ -3,7 +3,7 @@
 on: [ push ]
 
 env:
-  AZURE_WEBAPP_NAME: practice-3-s3
+  AZURE_WEBAPP_NAME: practice-3-s1
   AZURE_WEBAPP_PACKAGE_PATH: './published'
   NETCORE_VERSION: '5.0.x'
 
