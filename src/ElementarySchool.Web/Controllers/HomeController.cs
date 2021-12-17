@@ -17,7 +17,7 @@ namespace ElementarySchool.Controllers
 		[HttpGet]
 		public ActionResult Get()
 		{
-			return this.Ok(new { Success = true, Version = "Server_2_0"});
+			return this.Ok(new { Success = true, Version = "Server_1", Data = new[] { "cat", "dog" } });
 		}
 	}
 }
